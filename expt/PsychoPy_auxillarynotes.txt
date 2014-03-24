@@ -1,0 +1,78 @@
+Code in 'SetupCode'
+===================
+
+#Order is specified by experimenter at start of experiment via dialogue box
+order=int(expInfo['order']) #convert to integer
+
+#Now counterbalance pro-stereotype vs anti-stereotype IAT blocks
+
+#Default is pro-stereotypical - "Congruent" first
+trainfiles=['cong_train.xlsx','incong_train.xlsx']
+testfiles=['cong_test.xlsx','incong_test.xlsx']
+trainlabelsL=['A = \nWhite','A = \nBlack']
+trainlabelsR=['L = \nBlack','L = \nWhite']
+testlabelsL=['A = \nWhite or \nPositive','A = \nBlack or \nPositive']
+testlabelsR=['L = \nBlack or \nNegative','L = \nWhite or \nNegative']
+
+if order==2:
+    #Anti-stereotypical - "Incongruent" first
+    trainfiles.reverse()
+    testfiles.reverse()
+    trainlabelsL.reverse()
+    trainlabelsR.reverse()
+    testlabelsL.reverse()
+    testlabelsR.reverse()
+
+if order is not (1 or 2):
+    print "UNRECOGNISED ORDER CODE - please use 1 or 2 only"
+
+
+
+
+
+#print "UNRECOGNISED ORDER CODE - please use 1 or 2 only"
+
+#CREDITS
+
+'''
+Developed by Robin Scaife on the Leverhulme Trust "Bias and Blame" project 2014
+Additional coding by Tom Stafford with thanks to Lily Fitzgibbon for advice
+'''
+
+
+
+
+In Superloop_code
+==========================================
+
+#Set stimuli files and labels according to this is the 1st or 2nd time we are here
+testblockfile=testfiles[superloop.thisRepN]
+trainblockfile=trainfiles[superloop.thisRepN]
+trainlabelL=trainlabelsL[superloop.thisRepN]
+trainlabelR=trainlabelsR[superloop.thisRepN]
+testlabelL=testlabelsL[superloop.thisRepN]
+testlabelR=testlabelsR[superloop.thisRepN]
+
+
+A note on the stimuli
+======================
+
+In train and test the image sizes are different
+
+Stimuli are indexed by the .xlxs files and the line in the appropriate block, something like this
+
+os.path.join('stimuli',$StimuliImages)
+
+This tells PsychoPy to look in the subdirectory 'stimuli' for the files with the names specified in $SimuliImages
+
+Issues
+======
+
+The ready blocks show the wrong labels
+
+The 2nd block of superloop is currently mis-labelled, it should be "test_block" not "non_congruent"
+
+    trainlabelL="A = White"
+    trainabelR="L = Black"
+    testlabelL="A = White or Positive"
+    testlabelR="L = Black or Negative"
