@@ -1,0 +1,1897 @@
+6.8229 	EXP 	Set Window color=[ 0.  0.  0.] (rgb)
+7.6345 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=540, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.6990 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=705, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.7145 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=300, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.7191 	EXP 	Created text_4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_4', opacity=1.0, ori=0, pos=array([-0.8,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'A=Positive', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.7233 	EXP 	Created text_5 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_5', opacity=1.0, ori=0, pos=array([ 0.8,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'L=Negative', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.7270 	EXP 	Created Positive_label = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='Positive_label', opacity=1.0, ori=0, pos=array([-0.8,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'A=Positive', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.7305 	EXP 	Created Negative_label = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='Negative_label', opacity=1.0, ori=0, pos=array([ 0.8,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'L=Negative', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.7358 	EXP 	Created image_3 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=UNKNOWN, interpolate=False, mask=None, maskParams=None, name='image_3', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+7.7402 	EXP 	Created text_27 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_27', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.7436 	EXP 	Created text_29 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_29', opacity=1.0, ori=0, pos=array([-0.8,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'A=Positive', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.7473 	EXP 	Created text_30 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_30', opacity=1.0, ori=0, pos=array([ 0.8,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'L=Negative', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.7618 	EXP 	Created text_6 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=300, italic=False, name='text_6', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.7660 	EXP 	Created text_7 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_7', opacity=1.0, ori=0, pos=array([-0.8,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.7702 	EXP 	Created text_8 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_8', opacity=1.0, ori=0, pos=array([ 0.8,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.7746 	EXP 	Created text_9 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_9', opacity=1.0, ori=0, pos=array([-0.8,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.7791 	EXP 	Created text_10 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_10', opacity=1.0, ori=0, pos=array([ 0.8,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.7816 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=UNKNOWN, interpolate=False, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.3,  0.3]), texRes=128, units=u'norm', win=Window(...))
+7.7858 	EXP 	Created text_28 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_28', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.7901 	EXP 	Created text_31 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_31', opacity=1.0, ori=0, pos=array([-0.8,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.7943 	EXP 	Created text_32 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_32', opacity=1.0, ori=0, pos=array([ 0.8,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.8089 	EXP 	Created text_11 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=300, italic=False, name='text_11', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.8132 	EXP 	Created text_12 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_12', opacity=1.0, ori=0, pos=array([-0.8,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.8175 	EXP 	Created text_13 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_13', opacity=1.0, ori=0, pos=array([ 0.8,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.8217 	EXP 	Created text_14 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_14', opacity=1.0, ori=0, pos=array([-0.8,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.8262 	EXP 	Created text_15 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_15', opacity=1.0, ori=0, pos=array([ 0.8,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.8289 	EXP 	Created image_2 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=UNKNOWN, interpolate=False, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+7.8332 	EXP 	Created text_33 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_33', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.8374 	EXP 	Created text_34 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_34', opacity=1.0, ori=0, pos=array([-0.8,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.8417 	EXP 	Created text_35 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=60, italic=False, name='text_35', opacity=1.0, ori=0, pos=array([ 0.8,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.8772 	EXP 	Created text_26 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=UNKNOWN, fontFiles=UNKNOWN, height=590, italic=False, name='text_26', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=UNKNOWN)
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	ImageStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	ImageStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	ImageStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoLog = None
+7.9061 	EXP 	TextStim: autoDraw = None
+8.4900 	DATA 	Keypress: space
+8.5065 	EXP 	TextStim: autoDraw = None
+8.5065 	EXP 	TextStim: autoDraw = None
+9.2905 	DATA 	Keypress: space
+9.3070 	EXP 	TextStim: autoDraw = None
+9.3070 	EXP 	TextStim: autoDraw = None
+9.3070 	EXP 	TextStim: autoDraw = None
+9.3070 	EXP 	TextStim: autoDraw = None
+14.4942 	DATA 	Keypress: space
+14.5005 	EXP 	Imported pos_neg_train.xlsx as conditions, 10 conditions, 2 params
+14.5010 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+14.5016 	EXP 	New trial (rep=0, index=0): {u'StimuliImages': u'Evil.jpg', u'CorrAns1': u'l'}
+14.5275 	EXP 	TextStim: autoDraw = None
+14.5275 	EXP 	TextStim: autoDraw = None
+14.5275 	EXP 	TextStim: autoDraw = None
+14.5275 	EXP 	Set image_3 image=stimuli\Evil.jpg
+14.5275 	EXP 	TextStim: autoDraw = None
+14.5275 	EXP 	TextStim: autoDraw = None
+14.5275 	EXP 	ImageStim: autoDraw = None
+15.1617 	DATA 	Keypress: l
+15.1780 	EXP 	TextStim: autoDraw = None
+15.1780 	EXP 	TextStim: autoDraw = None
+15.1780 	EXP 	ImageStim: autoDraw = None
+15.1780 	EXP 	Set text_27 text=
+15.1780 	EXP 	TextStim: autoDraw = None
+15.1780 	EXP 	TextStim: autoDraw = None
+15.1780 	EXP 	TextStim: autoDraw = None
+16.1626 	EXP 	New trial (rep=0, index=1): {u'StimuliImages': u'Love.jpg', u'CorrAns1': u'a'}
+16.1788 	EXP 	TextStim: autoDraw = None
+16.1788 	EXP 	TextStim: autoDraw = None
+16.1788 	EXP 	TextStim: autoDraw = None
+16.1788 	EXP 	Set image_3 image=stimuli\Love.jpg
+16.1788 	EXP 	TextStim: autoDraw = None
+16.1788 	EXP 	TextStim: autoDraw = None
+16.1788 	EXP 	ImageStim: autoDraw = None
+16.5959 	DATA 	Keypress: a
+16.6124 	EXP 	TextStim: autoDraw = None
+16.6124 	EXP 	TextStim: autoDraw = None
+16.6124 	EXP 	ImageStim: autoDraw = None
+16.6124 	EXP 	Set text_27 text=
+16.6124 	EXP 	TextStim: autoDraw = None
+16.6124 	EXP 	TextStim: autoDraw = None
+16.6124 	EXP 	TextStim: autoDraw = None
+17.5974 	EXP 	New trial (rep=0, index=2): {u'StimuliImages': u'Agony.jpg', u'CorrAns1': u'l'}
+17.6132 	EXP 	TextStim: autoDraw = None
+17.6132 	EXP 	TextStim: autoDraw = None
+17.6132 	EXP 	TextStim: autoDraw = None
+17.6132 	EXP 	Set image_3 image=stimuli\Agony.jpg
+17.6132 	EXP 	TextStim: autoDraw = None
+17.6132 	EXP 	TextStim: autoDraw = None
+17.6132 	EXP 	ImageStim: autoDraw = None
+18.0990 	DATA 	Keypress: l
+18.1303 	EXP 	TextStim: autoDraw = None
+18.1303 	EXP 	TextStim: autoDraw = None
+18.1303 	EXP 	ImageStim: autoDraw = None
+18.1303 	EXP 	Set text_27 text=
+18.1303 	EXP 	TextStim: autoDraw = None
+18.1303 	EXP 	TextStim: autoDraw = None
+18.1303 	EXP 	TextStim: autoDraw = None
+19.1146 	EXP 	New trial (rep=0, index=3): {u'StimuliImages': u'Hurt.jpg', u'CorrAns1': u'l'}
+19.1309 	EXP 	TextStim: autoDraw = None
+19.1309 	EXP 	TextStim: autoDraw = None
+19.1309 	EXP 	TextStim: autoDraw = None
+19.1309 	EXP 	Set image_3 image=stimuli\Hurt.jpg
+19.1309 	EXP 	TextStim: autoDraw = None
+19.1309 	EXP 	TextStim: autoDraw = None
+19.1309 	EXP 	ImageStim: autoDraw = None
+19.6313 	DATA 	Keypress: l
+19.6477 	EXP 	TextStim: autoDraw = None
+19.6477 	EXP 	TextStim: autoDraw = None
+19.6477 	EXP 	ImageStim: autoDraw = None
+19.6477 	EXP 	Set text_27 text=
+19.6477 	EXP 	TextStim: autoDraw = None
+19.6477 	EXP 	TextStim: autoDraw = None
+19.6477 	EXP 	TextStim: autoDraw = None
+20.6322 	EXP 	New trial (rep=0, index=4): {u'StimuliImages': u'Nasty.jpg', u'CorrAns1': u'l'}
+20.6486 	EXP 	TextStim: autoDraw = None
+20.6486 	EXP 	TextStim: autoDraw = None
+20.6486 	EXP 	TextStim: autoDraw = None
+20.6486 	EXP 	Set image_3 image=stimuli\Nasty.jpg
+20.6486 	EXP 	TextStim: autoDraw = None
+20.6486 	EXP 	TextStim: autoDraw = None
+20.6486 	EXP 	ImageStim: autoDraw = None
+21.2491 	DATA 	Keypress: l
+21.2657 	EXP 	TextStim: autoDraw = None
+21.2657 	EXP 	TextStim: autoDraw = None
+21.2657 	EXP 	ImageStim: autoDraw = None
+21.2657 	EXP 	Set text_27 text=
+21.2657 	EXP 	TextStim: autoDraw = None
+21.2657 	EXP 	TextStim: autoDraw = None
+21.2657 	EXP 	TextStim: autoDraw = None
+22.2500 	EXP 	New trial (rep=0, index=5): {u'StimuliImages': u'Happy.jpg', u'CorrAns1': u'a'}
+22.2665 	EXP 	TextStim: autoDraw = None
+22.2665 	EXP 	TextStim: autoDraw = None
+22.2665 	EXP 	TextStim: autoDraw = None
+22.2665 	EXP 	Set image_3 image=stimuli\Happy.jpg
+22.2665 	EXP 	TextStim: autoDraw = None
+22.2665 	EXP 	TextStim: autoDraw = None
+22.2665 	EXP 	ImageStim: autoDraw = None
+22.7503 	DATA 	Keypress: a
+22.7668 	EXP 	TextStim: autoDraw = None
+22.7668 	EXP 	TextStim: autoDraw = None
+22.7668 	EXP 	ImageStim: autoDraw = None
+22.7668 	EXP 	Set text_27 text=
+22.7668 	EXP 	TextStim: autoDraw = None
+22.7668 	EXP 	TextStim: autoDraw = None
+22.7668 	EXP 	TextStim: autoDraw = None
+23.7511 	EXP 	New trial (rep=0, index=6): {u'StimuliImages': u'Bad.jpg', u'CorrAns1': u'l'}
+23.7675 	EXP 	TextStim: autoDraw = None
+23.7675 	EXP 	TextStim: autoDraw = None
+23.7675 	EXP 	TextStim: autoDraw = None
+23.7675 	EXP 	Set image_3 image=stimuli\Bad.jpg
+23.7675 	EXP 	TextStim: autoDraw = None
+23.7675 	EXP 	TextStim: autoDraw = None
+23.7675 	EXP 	ImageStim: autoDraw = None
+24.2194 	DATA 	Keypress: l
+24.2512 	EXP 	TextStim: autoDraw = None
+24.2512 	EXP 	TextStim: autoDraw = None
+24.2512 	EXP 	ImageStim: autoDraw = None
+24.2512 	EXP 	Set text_27 text=
+24.2512 	EXP 	TextStim: autoDraw = None
+24.2512 	EXP 	TextStim: autoDraw = None
+24.2512 	EXP 	TextStim: autoDraw = None
+25.2358 	EXP 	New trial (rep=0, index=7): {u'StimuliImages': u'Pleasure.jpg', u'CorrAns1': u'a'}
+25.2519 	EXP 	TextStim: autoDraw = None
+25.2519 	EXP 	TextStim: autoDraw = None
+25.2519 	EXP 	TextStim: autoDraw = None
+25.2519 	EXP 	Set image_3 image=stimuli\Pleasure.jpg
+25.2519 	EXP 	TextStim: autoDraw = None
+25.2519 	EXP 	TextStim: autoDraw = None
+25.2519 	EXP 	ImageStim: autoDraw = None
+25.6356 	DATA 	Keypress: a
+25.6522 	EXP 	TextStim: autoDraw = None
+25.6522 	EXP 	TextStim: autoDraw = None
+25.6522 	EXP 	ImageStim: autoDraw = None
+25.6522 	EXP 	Set text_27 text=
+25.6522 	EXP 	TextStim: autoDraw = None
+25.6522 	EXP 	TextStim: autoDraw = None
+25.6522 	EXP 	TextStim: autoDraw = None
+26.6366 	EXP 	New trial (rep=0, index=8): {u'StimuliImages': u'Joy.jpg', u'CorrAns1': u'a'}
+26.6528 	EXP 	TextStim: autoDraw = None
+26.6528 	EXP 	TextStim: autoDraw = None
+26.6528 	EXP 	TextStim: autoDraw = None
+26.6528 	EXP 	Set image_3 image=stimuli\Joy.jpg
+26.6528 	EXP 	TextStim: autoDraw = None
+26.6528 	EXP 	TextStim: autoDraw = None
+26.6528 	EXP 	ImageStim: autoDraw = None
+27.0033 	DATA 	Keypress: a
+27.0198 	EXP 	TextStim: autoDraw = None
+27.0198 	EXP 	TextStim: autoDraw = None
+27.0198 	EXP 	ImageStim: autoDraw = None
+27.0198 	EXP 	Set text_27 text=
+27.0198 	EXP 	TextStim: autoDraw = None
+27.0198 	EXP 	TextStim: autoDraw = None
+27.0198 	EXP 	TextStim: autoDraw = None
+28.0044 	EXP 	New trial (rep=0, index=9): {u'StimuliImages': u'Good.jpg', u'CorrAns1': u'a'}
+28.0205 	EXP 	TextStim: autoDraw = None
+28.0205 	EXP 	TextStim: autoDraw = None
+28.0205 	EXP 	TextStim: autoDraw = None
+28.0205 	EXP 	Set image_3 image=stimuli\Good.jpg
+28.0205 	EXP 	TextStim: autoDraw = None
+28.0205 	EXP 	TextStim: autoDraw = None
+28.0205 	EXP 	ImageStim: autoDraw = None
+28.4044 	DATA 	Keypress: a
+28.4208 	EXP 	TextStim: autoDraw = None
+28.4208 	EXP 	TextStim: autoDraw = None
+28.4208 	EXP 	ImageStim: autoDraw = None
+28.4208 	EXP 	Set text_27 text=
+28.4208 	EXP 	TextStim: autoDraw = None
+28.4208 	EXP 	TextStim: autoDraw = None
+28.4208 	EXP 	TextStim: autoDraw = None
+29.4054 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2, seed=None
+29.4063 	EXP 	New trial (rep=0, index=0): None
+29.4382 	EXP 	TextStim: autoDraw = None
+29.4382 	EXP 	TextStim: autoDraw = None
+29.4382 	EXP 	TextStim: autoDraw = None
+29.4382 	EXP 	Set text_7 text=A = 
+White
+29.4382 	EXP 	Set text_8 text=L = 
+Black
+29.4382 	EXP 	TextStim: autoDraw = None
+29.4382 	EXP 	TextStim: autoDraw = None
+29.4382 	EXP 	TextStim: autoDraw = None
+31.1231 	DATA 	Keypress: space
+31.1286 	EXP 	Imported cong_train.xlsx as conditions, 10 conditions, 2 params
+31.1291 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+31.1298 	EXP 	New trial (rep=0, index=0): {u'TrialImages': u'black_4.jpg', u'CorrAns': u'l'}
+31.1561 	EXP 	TextStim: autoDraw = None
+31.1561 	EXP 	TextStim: autoDraw = None
+31.1561 	EXP 	TextStim: autoDraw = None
+31.1561 	EXP 	Set text_9 text=A = 
+White
+31.1561 	EXP 	Set text_10 text=L = 
+Black
+31.1561 	EXP 	Set image image=stimuli\black_4.jpg
+31.1561 	EXP 	TextStim: autoDraw = None
+31.1561 	EXP 	TextStim: autoDraw = None
+31.1561 	EXP 	ImageStim: autoDraw = None
+31.7899 	DATA 	Keypress: l
+31.8232 	EXP 	TextStim: autoDraw = None
+31.8232 	EXP 	TextStim: autoDraw = None
+31.8232 	EXP 	ImageStim: autoDraw = None
+31.8232 	EXP 	Set text_28 text=
+31.8232 	EXP 	Set text_31 text=A = 
+White
+31.8232 	EXP 	Set text_32 text=L = 
+Black
+31.8232 	EXP 	TextStim: autoDraw = None
+31.8232 	EXP 	TextStim: autoDraw = None
+31.8232 	EXP 	TextStim: autoDraw = None
+32.7916 	EXP 	New trial (rep=0, index=1): {u'TrialImages': u'black_3.jpg', u'CorrAns': u'l'}
+32.8407 	EXP 	TextStim: autoDraw = None
+32.8407 	EXP 	TextStim: autoDraw = None
+32.8407 	EXP 	TextStim: autoDraw = None
+32.8407 	EXP 	Set text_9 text=A = 
+White
+32.8407 	EXP 	Set text_10 text=L = 
+Black
+32.8407 	EXP 	Set image image=stimuli\black_3.jpg
+32.8407 	EXP 	TextStim: autoDraw = None
+32.8407 	EXP 	TextStim: autoDraw = None
+32.8407 	EXP 	ImageStim: autoDraw = None
+33.2243 	DATA 	Keypress: l
+33.2435 	EXP 	TextStim: autoDraw = None
+33.2435 	EXP 	TextStim: autoDraw = None
+33.2435 	EXP 	ImageStim: autoDraw = None
+33.2435 	EXP 	Set text_28 text=
+33.2435 	EXP 	Set text_31 text=A = 
+White
+33.2435 	EXP 	Set text_32 text=L = 
+Black
+33.2435 	EXP 	TextStim: autoDraw = None
+33.2435 	EXP 	TextStim: autoDraw = None
+33.2435 	EXP 	TextStim: autoDraw = None
+34.2254 	EXP 	New trial (rep=0, index=2): {u'TrialImages': u'white_4.jpg', u'CorrAns': u'a'}
+34.2582 	EXP 	TextStim: autoDraw = None
+34.2582 	EXP 	TextStim: autoDraw = None
+34.2582 	EXP 	TextStim: autoDraw = None
+34.2582 	EXP 	Set text_9 text=A = 
+White
+34.2582 	EXP 	Set text_10 text=L = 
+Black
+34.2582 	EXP 	Set image image=stimuli\white_4.jpg
+34.2582 	EXP 	TextStim: autoDraw = None
+34.2582 	EXP 	TextStim: autoDraw = None
+34.2582 	EXP 	ImageStim: autoDraw = None
+34.7255 	DATA 	Keypress: a
+34.7586 	EXP 	TextStim: autoDraw = None
+34.7586 	EXP 	TextStim: autoDraw = None
+34.7586 	EXP 	ImageStim: autoDraw = None
+34.7586 	EXP 	Set text_28 text=
+34.7586 	EXP 	Set text_31 text=A = 
+White
+34.7586 	EXP 	Set text_32 text=L = 
+Black
+34.7586 	EXP 	TextStim: autoDraw = None
+34.7586 	EXP 	TextStim: autoDraw = None
+34.7586 	EXP 	TextStim: autoDraw = None
+35.7265 	EXP 	New trial (rep=0, index=3): {u'TrialImages': u'black_5.jpg', u'CorrAns': u'l'}
+35.7594 	EXP 	TextStim: autoDraw = None
+35.7594 	EXP 	TextStim: autoDraw = None
+35.7594 	EXP 	TextStim: autoDraw = None
+35.7594 	EXP 	Set text_9 text=A = 
+White
+35.7594 	EXP 	Set text_10 text=L = 
+Black
+35.7594 	EXP 	Set image image=stimuli\black_5.jpg
+35.7594 	EXP 	TextStim: autoDraw = None
+35.7594 	EXP 	TextStim: autoDraw = None
+35.7594 	EXP 	ImageStim: autoDraw = None
+36.5600 	DATA 	Keypress: l
+36.5934 	EXP 	TextStim: autoDraw = None
+36.5934 	EXP 	TextStim: autoDraw = None
+36.5934 	EXP 	ImageStim: autoDraw = None
+36.5934 	EXP 	Set text_28 text=
+36.5934 	EXP 	Set text_31 text=A = 
+White
+36.5934 	EXP 	Set text_32 text=L = 
+Black
+36.5934 	EXP 	TextStim: autoDraw = None
+36.5934 	EXP 	TextStim: autoDraw = None
+36.5934 	EXP 	TextStim: autoDraw = None
+37.5611 	EXP 	New trial (rep=0, index=4): {u'TrialImages': u'white_3.jpg', u'CorrAns': u'a'}
+37.5939 	EXP 	TextStim: autoDraw = None
+37.5939 	EXP 	TextStim: autoDraw = None
+37.5939 	EXP 	TextStim: autoDraw = None
+37.5939 	EXP 	Set text_9 text=A = 
+White
+37.5939 	EXP 	Set text_10 text=L = 
+Black
+37.5939 	EXP 	Set image image=stimuli\white_3.jpg
+37.5939 	EXP 	TextStim: autoDraw = None
+37.5939 	EXP 	TextStim: autoDraw = None
+37.5939 	EXP 	ImageStim: autoDraw = None
+38.1279 	DATA 	Keypress: a
+38.1611 	EXP 	TextStim: autoDraw = None
+38.1611 	EXP 	TextStim: autoDraw = None
+38.1611 	EXP 	ImageStim: autoDraw = None
+38.1611 	EXP 	Set text_28 text=
+38.1611 	EXP 	Set text_31 text=A = 
+White
+38.1611 	EXP 	Set text_32 text=L = 
+Black
+38.1611 	EXP 	TextStim: autoDraw = None
+38.1611 	EXP 	TextStim: autoDraw = None
+38.1611 	EXP 	TextStim: autoDraw = None
+39.1289 	EXP 	New trial (rep=0, index=5): {u'TrialImages': u'black_2.jpg', u'CorrAns': u'l'}
+39.1618 	EXP 	TextStim: autoDraw = None
+39.1618 	EXP 	TextStim: autoDraw = None
+39.1618 	EXP 	TextStim: autoDraw = None
+39.1618 	EXP 	Set text_9 text=A = 
+White
+39.1618 	EXP 	Set text_10 text=L = 
+Black
+39.1618 	EXP 	Set image image=stimuli\black_2.jpg
+39.1618 	EXP 	TextStim: autoDraw = None
+39.1618 	EXP 	TextStim: autoDraw = None
+39.1618 	EXP 	ImageStim: autoDraw = None
+39.6790 	DATA 	Keypress: l
+39.7121 	EXP 	TextStim: autoDraw = None
+39.7121 	EXP 	TextStim: autoDraw = None
+39.7121 	EXP 	ImageStim: autoDraw = None
+39.7121 	EXP 	Set text_28 text=
+39.7121 	EXP 	Set text_31 text=A = 
+White
+39.7121 	EXP 	Set text_32 text=L = 
+Black
+39.7121 	EXP 	TextStim: autoDraw = None
+39.7121 	EXP 	TextStim: autoDraw = None
+39.7121 	EXP 	TextStim: autoDraw = None
+40.6800 	EXP 	New trial (rep=0, index=6): {u'TrialImages': u'white_1.jpg', u'CorrAns': u'a'}
+40.7128 	EXP 	TextStim: autoDraw = None
+40.7128 	EXP 	TextStim: autoDraw = None
+40.7128 	EXP 	TextStim: autoDraw = None
+40.7128 	EXP 	Set text_9 text=A = 
+White
+40.7128 	EXP 	Set text_10 text=L = 
+Black
+40.7128 	EXP 	Set image image=stimuli\white_1.jpg
+40.7128 	EXP 	TextStim: autoDraw = None
+40.7128 	EXP 	TextStim: autoDraw = None
+40.7128 	EXP 	ImageStim: autoDraw = None
+41.1969 	DATA 	Keypress: a
+41.2300 	EXP 	TextStim: autoDraw = None
+41.2300 	EXP 	TextStim: autoDraw = None
+41.2300 	EXP 	ImageStim: autoDraw = None
+41.2300 	EXP 	Set text_28 text=
+41.2300 	EXP 	Set text_31 text=A = 
+White
+41.2300 	EXP 	Set text_32 text=L = 
+Black
+41.2300 	EXP 	TextStim: autoDraw = None
+41.2300 	EXP 	TextStim: autoDraw = None
+41.2300 	EXP 	TextStim: autoDraw = None
+42.1979 	EXP 	New trial (rep=0, index=7): {u'TrialImages': u'black_1.jpg', u'CorrAns': u'l'}
+42.2306 	EXP 	TextStim: autoDraw = None
+42.2306 	EXP 	TextStim: autoDraw = None
+42.2306 	EXP 	TextStim: autoDraw = None
+42.2306 	EXP 	Set text_9 text=A = 
+White
+42.2306 	EXP 	Set text_10 text=L = 
+Black
+42.2306 	EXP 	Set image image=stimuli\black_1.jpg
+42.2306 	EXP 	TextStim: autoDraw = None
+42.2306 	EXP 	TextStim: autoDraw = None
+42.2306 	EXP 	ImageStim: autoDraw = None
+43.2481 	DATA 	Keypress: l
+43.2813 	EXP 	TextStim: autoDraw = None
+43.2813 	EXP 	TextStim: autoDraw = None
+43.2813 	EXP 	ImageStim: autoDraw = None
+43.2813 	EXP 	Set text_28 text=
+43.2813 	EXP 	Set text_31 text=A = 
+White
+43.2813 	EXP 	Set text_32 text=L = 
+Black
+43.2813 	EXP 	TextStim: autoDraw = None
+43.2813 	EXP 	TextStim: autoDraw = None
+43.2813 	EXP 	TextStim: autoDraw = None
+44.2495 	EXP 	New trial (rep=0, index=8): {u'TrialImages': u'white_2.jpg', u'CorrAns': u'a'}
+44.2820 	EXP 	TextStim: autoDraw = None
+44.2820 	EXP 	TextStim: autoDraw = None
+44.2820 	EXP 	TextStim: autoDraw = None
+44.2820 	EXP 	Set text_9 text=A = 
+White
+44.2820 	EXP 	Set text_10 text=L = 
+Black
+44.2820 	EXP 	Set image image=stimuli\white_2.jpg
+44.2820 	EXP 	TextStim: autoDraw = None
+44.2820 	EXP 	TextStim: autoDraw = None
+44.2820 	EXP 	ImageStim: autoDraw = None
+44.6993 	DATA 	Keypress: a
+44.7324 	EXP 	TextStim: autoDraw = None
+44.7324 	EXP 	TextStim: autoDraw = None
+44.7324 	EXP 	ImageStim: autoDraw = None
+44.7324 	EXP 	Set text_28 text=
+44.7324 	EXP 	Set text_31 text=A = 
+White
+44.7324 	EXP 	Set text_32 text=L = 
+Black
+44.7324 	EXP 	TextStim: autoDraw = None
+44.7324 	EXP 	TextStim: autoDraw = None
+44.7324 	EXP 	TextStim: autoDraw = None
+45.7003 	EXP 	New trial (rep=0, index=9): {u'TrialImages': u'white_5.jpg', u'CorrAns': u'a'}
+45.7332 	EXP 	TextStim: autoDraw = None
+45.7332 	EXP 	TextStim: autoDraw = None
+45.7332 	EXP 	TextStim: autoDraw = None
+45.7332 	EXP 	Set text_9 text=A = 
+White
+45.7332 	EXP 	Set text_10 text=L = 
+Black
+45.7332 	EXP 	Set image image=stimuli\white_5.jpg
+45.7332 	EXP 	TextStim: autoDraw = None
+45.7332 	EXP 	TextStim: autoDraw = None
+45.7332 	EXP 	ImageStim: autoDraw = None
+46.3503 	DATA 	Keypress: a
+46.3836 	EXP 	TextStim: autoDraw = None
+46.3836 	EXP 	TextStim: autoDraw = None
+46.3836 	EXP 	ImageStim: autoDraw = None
+46.3836 	EXP 	Set text_28 text=
+46.3836 	EXP 	Set text_31 text=A = 
+White
+46.3836 	EXP 	Set text_32 text=L = 
+Black
+46.3836 	EXP 	TextStim: autoDraw = None
+46.3836 	EXP 	TextStim: autoDraw = None
+46.3836 	EXP 	TextStim: autoDraw = None
+47.3843 	EXP 	TextStim: autoDraw = None
+47.3843 	EXP 	TextStim: autoDraw = None
+47.3843 	EXP 	TextStim: autoDraw = None
+47.3843 	EXP 	Set text_12 text=A = 
+White or 
+Positive
+47.3843 	EXP 	Set text_13 text=L = 
+Black or 
+Negative
+47.3843 	EXP 	TextStim: autoDraw = None
+47.3843 	EXP 	TextStim: autoDraw = None
+47.3843 	EXP 	TextStim: autoDraw = None
+66.6646 	DATA 	Keypress: space
+66.6696 	EXP 	Imported cong_test.xlsx as conditions, 20 conditions, 2 params
+66.6701 	EXP 	Created sequence: random, trialTypes=20, nReps=1, seed=None
+66.6707 	EXP 	New trial (rep=0, index=0): {u'TrialImages': u'black_3.jpg', u'CorrAns': u'l'}
+66.6979 	EXP 	TextStim: autoDraw = None
+66.6979 	EXP 	TextStim: autoDraw = None
+66.6979 	EXP 	TextStim: autoDraw = None
+66.6979 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+66.6979 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+66.6979 	EXP 	Set image_2 image=stimuli\black_3.jpg
+66.6979 	EXP 	TextStim: autoDraw = None
+66.6979 	EXP 	TextStim: autoDraw = None
+66.6979 	EXP 	ImageStim: autoDraw = None
+67.2486 	DATA 	Keypress: l
+67.2983 	EXP 	TextStim: autoDraw = None
+67.2983 	EXP 	TextStim: autoDraw = None
+67.2983 	EXP 	ImageStim: autoDraw = None
+67.2983 	EXP 	Set text_33 text=
+67.2983 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+67.2983 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+67.2983 	EXP 	TextStim: autoDraw = None
+67.2983 	EXP 	TextStim: autoDraw = None
+67.2983 	EXP 	TextStim: autoDraw = None
+68.2499 	EXP 	New trial (rep=0, index=1): {u'TrialImages': u'white_5.jpg', u'CorrAns': u'a'}
+68.2991 	EXP 	TextStim: autoDraw = None
+68.2991 	EXP 	TextStim: autoDraw = None
+68.2991 	EXP 	TextStim: autoDraw = None
+68.2991 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+68.2991 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+68.2991 	EXP 	Set image_2 image=stimuli\white_5.jpg
+68.2991 	EXP 	TextStim: autoDraw = None
+68.2991 	EXP 	TextStim: autoDraw = None
+68.2991 	EXP 	ImageStim: autoDraw = None
+68.9664 	DATA 	Keypress: a
+68.9996 	EXP 	TextStim: autoDraw = None
+68.9996 	EXP 	TextStim: autoDraw = None
+68.9996 	EXP 	ImageStim: autoDraw = None
+68.9996 	EXP 	Set text_33 text=
+68.9996 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+68.9996 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+68.9996 	EXP 	TextStim: autoDraw = None
+68.9996 	EXP 	TextStim: autoDraw = None
+68.9996 	EXP 	TextStim: autoDraw = None
+69.9675 	EXP 	New trial (rep=0, index=2): {u'TrialImages': u'Bad.jpg', u'CorrAns': u'l'}
+70.0004 	EXP 	TextStim: autoDraw = None
+70.0004 	EXP 	TextStim: autoDraw = None
+70.0004 	EXP 	TextStim: autoDraw = None
+70.0004 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+70.0004 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+70.0004 	EXP 	Set image_2 image=stimuli\Bad.jpg
+70.0004 	EXP 	TextStim: autoDraw = None
+70.0004 	EXP 	TextStim: autoDraw = None
+70.0004 	EXP 	ImageStim: autoDraw = None
+70.4844 	DATA 	Keypress: l
+70.5174 	EXP 	TextStim: autoDraw = None
+70.5174 	EXP 	TextStim: autoDraw = None
+70.5174 	EXP 	ImageStim: autoDraw = None
+70.5174 	EXP 	Set text_33 text=
+70.5174 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+70.5174 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+70.5174 	EXP 	TextStim: autoDraw = None
+70.5174 	EXP 	TextStim: autoDraw = None
+70.5174 	EXP 	TextStim: autoDraw = None
+71.4851 	EXP 	New trial (rep=0, index=3): {u'TrialImages': u'Good.jpg', u'CorrAns': u'a'}
+71.5181 	EXP 	TextStim: autoDraw = None
+71.5181 	EXP 	TextStim: autoDraw = None
+71.5181 	EXP 	TextStim: autoDraw = None
+71.5181 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+71.5181 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+71.5181 	EXP 	Set image_2 image=stimuli\Good.jpg
+71.5181 	EXP 	TextStim: autoDraw = None
+71.5181 	EXP 	TextStim: autoDraw = None
+71.5181 	EXP 	ImageStim: autoDraw = None
+72.3688 	DATA 	Keypress: a
+72.4020 	EXP 	TextStim: autoDraw = None
+72.4020 	EXP 	TextStim: autoDraw = None
+72.4020 	EXP 	ImageStim: autoDraw = None
+72.4020 	EXP 	Set text_33 text=
+72.4020 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+72.4020 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+72.4020 	EXP 	TextStim: autoDraw = None
+72.4020 	EXP 	TextStim: autoDraw = None
+72.4020 	EXP 	TextStim: autoDraw = None
+73.3698 	EXP 	New trial (rep=0, index=4): {u'TrialImages': u'white_2.jpg', u'CorrAns': u'a'}
+73.4028 	EXP 	TextStim: autoDraw = None
+73.4028 	EXP 	TextStim: autoDraw = None
+73.4028 	EXP 	TextStim: autoDraw = None
+73.4028 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+73.4028 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+73.4028 	EXP 	Set image_2 image=stimuli\white_2.jpg
+73.4028 	EXP 	TextStim: autoDraw = None
+73.4028 	EXP 	TextStim: autoDraw = None
+73.4028 	EXP 	ImageStim: autoDraw = None
+73.7866 	DATA 	Keypress: a
+73.8198 	EXP 	TextStim: autoDraw = None
+73.8198 	EXP 	TextStim: autoDraw = None
+73.8198 	EXP 	ImageStim: autoDraw = None
+73.8198 	EXP 	Set text_33 text=
+73.8198 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+73.8198 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+73.8198 	EXP 	TextStim: autoDraw = None
+73.8198 	EXP 	TextStim: autoDraw = None
+73.8198 	EXP 	TextStim: autoDraw = None
+74.7877 	EXP 	New trial (rep=0, index=5): {u'TrialImages': u'black_5.jpg', u'CorrAns': u'l'}
+74.8204 	EXP 	TextStim: autoDraw = None
+74.8204 	EXP 	TextStim: autoDraw = None
+74.8204 	EXP 	TextStim: autoDraw = None
+74.8204 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+74.8204 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+74.8204 	EXP 	Set image_2 image=stimuli\black_5.jpg
+74.8204 	EXP 	TextStim: autoDraw = None
+74.8204 	EXP 	TextStim: autoDraw = None
+74.8204 	EXP 	ImageStim: autoDraw = None
+75.2542 	DATA 	Keypress: l
+75.2875 	EXP 	TextStim: autoDraw = None
+75.2875 	EXP 	TextStim: autoDraw = None
+75.2875 	EXP 	ImageStim: autoDraw = None
+75.2875 	EXP 	Set text_33 text=
+75.2875 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+75.2875 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+75.2875 	EXP 	TextStim: autoDraw = None
+75.2875 	EXP 	TextStim: autoDraw = None
+75.2875 	EXP 	TextStim: autoDraw = None
+76.2552 	EXP 	New trial (rep=0, index=6): {u'TrialImages': u'Agony.jpg', u'CorrAns': u'l'}
+76.2881 	EXP 	TextStim: autoDraw = None
+76.2881 	EXP 	TextStim: autoDraw = None
+76.2881 	EXP 	TextStim: autoDraw = None
+76.2881 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+76.2881 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+76.2881 	EXP 	Set image_2 image=stimuli\Agony.jpg
+76.2881 	EXP 	TextStim: autoDraw = None
+76.2881 	EXP 	TextStim: autoDraw = None
+76.2881 	EXP 	ImageStim: autoDraw = None
+76.9721 	DATA 	Keypress: l
+77.0053 	EXP 	TextStim: autoDraw = None
+77.0053 	EXP 	TextStim: autoDraw = None
+77.0053 	EXP 	ImageStim: autoDraw = None
+77.0053 	EXP 	Set text_33 text=
+77.0053 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+77.0053 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+77.0053 	EXP 	TextStim: autoDraw = None
+77.0053 	EXP 	TextStim: autoDraw = None
+77.0053 	EXP 	TextStim: autoDraw = None
+77.9731 	EXP 	New trial (rep=0, index=7): {u'TrialImages': u'white_4.jpg', u'CorrAns': u'a'}
+78.0060 	EXP 	TextStim: autoDraw = None
+78.0060 	EXP 	TextStim: autoDraw = None
+78.0060 	EXP 	TextStim: autoDraw = None
+78.0060 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+78.0060 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+78.0060 	EXP 	Set image_2 image=stimuli\white_4.jpg
+78.0060 	EXP 	TextStim: autoDraw = None
+78.0060 	EXP 	TextStim: autoDraw = None
+78.0060 	EXP 	ImageStim: autoDraw = None
+78.4730 	DATA 	Keypress: a
+78.5063 	EXP 	TextStim: autoDraw = None
+78.5063 	EXP 	TextStim: autoDraw = None
+78.5063 	EXP 	ImageStim: autoDraw = None
+78.5063 	EXP 	Set text_33 text=
+78.5063 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+78.5063 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+78.5063 	EXP 	TextStim: autoDraw = None
+78.5063 	EXP 	TextStim: autoDraw = None
+78.5063 	EXP 	TextStim: autoDraw = None
+79.4740 	EXP 	New trial (rep=0, index=8): {u'TrialImages': u'black_2.jpg', u'CorrAns': u'l'}
+79.5070 	EXP 	TextStim: autoDraw = None
+79.5070 	EXP 	TextStim: autoDraw = None
+79.5070 	EXP 	TextStim: autoDraw = None
+79.5070 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+79.5070 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+79.5070 	EXP 	Set image_2 image=stimuli\black_2.jpg
+79.5070 	EXP 	TextStim: autoDraw = None
+79.5070 	EXP 	TextStim: autoDraw = None
+79.5070 	EXP 	ImageStim: autoDraw = None
+80.1077 	DATA 	Keypress: l
+80.1409 	EXP 	TextStim: autoDraw = None
+80.1409 	EXP 	TextStim: autoDraw = None
+80.1409 	EXP 	ImageStim: autoDraw = None
+80.1409 	EXP 	Set text_33 text=
+80.1409 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+80.1409 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+80.1409 	EXP 	TextStim: autoDraw = None
+80.1409 	EXP 	TextStim: autoDraw = None
+80.1409 	EXP 	TextStim: autoDraw = None
+81.1087 	EXP 	New trial (rep=0, index=9): {u'TrialImages': u'white_1.jpg', u'CorrAns': u'a'}
+81.1416 	EXP 	TextStim: autoDraw = None
+81.1416 	EXP 	TextStim: autoDraw = None
+81.1416 	EXP 	TextStim: autoDraw = None
+81.1416 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+81.1416 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+81.1416 	EXP 	Set image_2 image=stimuli\white_1.jpg
+81.1416 	EXP 	TextStim: autoDraw = None
+81.1416 	EXP 	TextStim: autoDraw = None
+81.1416 	EXP 	ImageStim: autoDraw = None
+81.6421 	DATA 	Keypress: a
+81.6753 	EXP 	TextStim: autoDraw = None
+81.6753 	EXP 	TextStim: autoDraw = None
+81.6753 	EXP 	ImageStim: autoDraw = None
+81.6753 	EXP 	Set text_33 text=
+81.6753 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+81.6753 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+81.6753 	EXP 	TextStim: autoDraw = None
+81.6753 	EXP 	TextStim: autoDraw = None
+81.6753 	EXP 	TextStim: autoDraw = None
+82.6432 	EXP 	New trial (rep=0, index=10): {u'TrialImages': u'black_4.jpg', u'CorrAns': u'l'}
+82.6760 	EXP 	TextStim: autoDraw = None
+82.6760 	EXP 	TextStim: autoDraw = None
+82.6760 	EXP 	TextStim: autoDraw = None
+82.6760 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+82.6760 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+82.6760 	EXP 	Set image_2 image=stimuli\black_4.jpg
+82.6760 	EXP 	TextStim: autoDraw = None
+82.6760 	EXP 	TextStim: autoDraw = None
+82.6760 	EXP 	ImageStim: autoDraw = None
+83.2266 	DATA 	Keypress: l
+83.2599 	EXP 	TextStim: autoDraw = None
+83.2599 	EXP 	TextStim: autoDraw = None
+83.2599 	EXP 	ImageStim: autoDraw = None
+83.2599 	EXP 	Set text_33 text=
+83.2599 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+83.2599 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+83.2599 	EXP 	TextStim: autoDraw = None
+83.2599 	EXP 	TextStim: autoDraw = None
+83.2599 	EXP 	TextStim: autoDraw = None
+84.2276 	EXP 	New trial (rep=0, index=11): {u'TrialImages': u'Hurt.jpg', u'CorrAns': u'l'}
+84.2605 	EXP 	TextStim: autoDraw = None
+84.2605 	EXP 	TextStim: autoDraw = None
+84.2605 	EXP 	TextStim: autoDraw = None
+84.2605 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+84.2605 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+84.2605 	EXP 	Set image_2 image=stimuli\Hurt.jpg
+84.2605 	EXP 	TextStim: autoDraw = None
+84.2605 	EXP 	TextStim: autoDraw = None
+84.2605 	EXP 	ImageStim: autoDraw = None
+84.8778 	DATA 	Keypress: l
+84.9110 	EXP 	TextStim: autoDraw = None
+84.9110 	EXP 	TextStim: autoDraw = None
+84.9110 	EXP 	ImageStim: autoDraw = None
+84.9110 	EXP 	Set text_33 text=
+84.9110 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+84.9110 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+84.9110 	EXP 	TextStim: autoDraw = None
+84.9110 	EXP 	TextStim: autoDraw = None
+84.9110 	EXP 	TextStim: autoDraw = None
+85.8788 	EXP 	New trial (rep=0, index=12): {u'TrialImages': u'Pleasure.jpg', u'CorrAns': u'a'}
+85.9116 	EXP 	TextStim: autoDraw = None
+85.9116 	EXP 	TextStim: autoDraw = None
+85.9116 	EXP 	TextStim: autoDraw = None
+85.9116 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+85.9116 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+85.9116 	EXP 	Set image_2 image=stimuli\Pleasure.jpg
+85.9116 	EXP 	TextStim: autoDraw = None
+85.9116 	EXP 	TextStim: autoDraw = None
+85.9116 	EXP 	ImageStim: autoDraw = None
+86.3790 	DATA 	Keypress: a
+86.4120 	EXP 	TextStim: autoDraw = None
+86.4120 	EXP 	TextStim: autoDraw = None
+86.4120 	EXP 	ImageStim: autoDraw = None
+86.4120 	EXP 	Set text_33 text=
+86.4120 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+86.4120 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+86.4120 	EXP 	TextStim: autoDraw = None
+86.4120 	EXP 	TextStim: autoDraw = None
+86.4120 	EXP 	TextStim: autoDraw = None
+87.3798 	EXP 	New trial (rep=0, index=13): {u'TrialImages': u'Nasty.jpg', u'CorrAns': u'l'}
+87.4127 	EXP 	TextStim: autoDraw = None
+87.4127 	EXP 	TextStim: autoDraw = None
+87.4127 	EXP 	TextStim: autoDraw = None
+87.4127 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+87.4127 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+87.4127 	EXP 	Set image_2 image=stimuli\Nasty.jpg
+87.4127 	EXP 	TextStim: autoDraw = None
+87.4127 	EXP 	TextStim: autoDraw = None
+87.4127 	EXP 	ImageStim: autoDraw = None
+87.9300 	DATA 	Keypress: l
+87.9631 	EXP 	TextStim: autoDraw = None
+87.9631 	EXP 	TextStim: autoDraw = None
+87.9631 	EXP 	ImageStim: autoDraw = None
+87.9631 	EXP 	Set text_33 text=
+87.9631 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+87.9631 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+87.9631 	EXP 	TextStim: autoDraw = None
+87.9631 	EXP 	TextStim: autoDraw = None
+87.9631 	EXP 	TextStim: autoDraw = None
+88.9309 	EXP 	New trial (rep=0, index=14): {u'TrialImages': u'Joy.jpg', u'CorrAns': u'a'}
+88.9638 	EXP 	TextStim: autoDraw = None
+88.9638 	EXP 	TextStim: autoDraw = None
+88.9638 	EXP 	TextStim: autoDraw = None
+88.9638 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+88.9638 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+88.9638 	EXP 	Set image_2 image=stimuli\Joy.jpg
+88.9638 	EXP 	TextStim: autoDraw = None
+88.9638 	EXP 	TextStim: autoDraw = None
+88.9638 	EXP 	ImageStim: autoDraw = None
+89.5143 	DATA 	Keypress: a
+89.5476 	EXP 	TextStim: autoDraw = None
+89.5476 	EXP 	TextStim: autoDraw = None
+89.5476 	EXP 	ImageStim: autoDraw = None
+89.5476 	EXP 	Set text_33 text=
+89.5476 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+89.5476 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+89.5476 	EXP 	TextStim: autoDraw = None
+89.5476 	EXP 	TextStim: autoDraw = None
+89.5476 	EXP 	TextStim: autoDraw = None
+90.5158 	EXP 	New trial (rep=0, index=15): {u'TrialImages': u'white_3.jpg', u'CorrAns': u'a'}
+90.5649 	EXP 	TextStim: autoDraw = None
+90.5649 	EXP 	TextStim: autoDraw = None
+90.5649 	EXP 	TextStim: autoDraw = None
+90.5649 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+90.5649 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+90.5649 	EXP 	Set image_2 image=stimuli\white_3.jpg
+90.5649 	EXP 	TextStim: autoDraw = None
+90.5649 	EXP 	TextStim: autoDraw = None
+90.5649 	EXP 	ImageStim: autoDraw = None
+91.1155 	DATA 	Keypress: a
+91.1487 	EXP 	TextStim: autoDraw = None
+91.1487 	EXP 	TextStim: autoDraw = None
+91.1487 	EXP 	ImageStim: autoDraw = None
+91.1487 	EXP 	Set text_33 text=
+91.1487 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+91.1487 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+91.1487 	EXP 	TextStim: autoDraw = None
+91.1487 	EXP 	TextStim: autoDraw = None
+91.1487 	EXP 	TextStim: autoDraw = None
+92.1166 	EXP 	New trial (rep=0, index=16): {u'TrialImages': u'black_1.jpg', u'CorrAns': u'l'}
+92.1495 	EXP 	TextStim: autoDraw = None
+92.1495 	EXP 	TextStim: autoDraw = None
+92.1495 	EXP 	TextStim: autoDraw = None
+92.1495 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+92.1495 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+92.1495 	EXP 	Set image_2 image=stimuli\black_1.jpg
+92.1495 	EXP 	TextStim: autoDraw = None
+92.1495 	EXP 	TextStim: autoDraw = None
+92.1495 	EXP 	ImageStim: autoDraw = None
+92.8504 	DATA 	Keypress: l
+92.9000 	EXP 	TextStim: autoDraw = None
+92.9000 	EXP 	TextStim: autoDraw = None
+92.9000 	EXP 	ImageStim: autoDraw = None
+92.9000 	EXP 	Set text_33 text=
+92.9000 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+92.9000 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+92.9000 	EXP 	TextStim: autoDraw = None
+92.9000 	EXP 	TextStim: autoDraw = None
+92.9000 	EXP 	TextStim: autoDraw = None
+93.8513 	EXP 	New trial (rep=0, index=17): {u'TrialImages': u'Happy.jpg', u'CorrAns': u'a'}
+93.8853 	EXP 	TextStim: autoDraw = None
+93.8853 	EXP 	TextStim: autoDraw = None
+93.8853 	EXP 	TextStim: autoDraw = None
+93.8853 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+93.8853 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+93.8853 	EXP 	Set image_2 image=stimuli\Happy.jpg
+93.8853 	EXP 	TextStim: autoDraw = None
+93.8853 	EXP 	TextStim: autoDraw = None
+93.8853 	EXP 	ImageStim: autoDraw = None
+95.1683 	DATA 	Keypress: a
+95.2016 	EXP 	TextStim: autoDraw = None
+95.2016 	EXP 	TextStim: autoDraw = None
+95.2016 	EXP 	ImageStim: autoDraw = None
+95.2016 	EXP 	Set text_33 text=
+95.2016 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+95.2016 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+95.2016 	EXP 	TextStim: autoDraw = None
+95.2016 	EXP 	TextStim: autoDraw = None
+95.2016 	EXP 	TextStim: autoDraw = None
+96.1694 	EXP 	New trial (rep=0, index=18): {u'TrialImages': u'Love.jpg', u'CorrAns': u'a'}
+96.2023 	EXP 	TextStim: autoDraw = None
+96.2023 	EXP 	TextStim: autoDraw = None
+96.2023 	EXP 	TextStim: autoDraw = None
+96.2023 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+96.2023 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+96.2023 	EXP 	Set image_2 image=stimuli\Love.jpg
+96.2023 	EXP 	TextStim: autoDraw = None
+96.2023 	EXP 	TextStim: autoDraw = None
+96.2023 	EXP 	ImageStim: autoDraw = None
+96.7694 	DATA 	Keypress: a
+96.8027 	EXP 	TextStim: autoDraw = None
+96.8027 	EXP 	TextStim: autoDraw = None
+96.8027 	EXP 	ImageStim: autoDraw = None
+96.8027 	EXP 	Set text_33 text=
+96.8027 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+96.8027 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+96.8027 	EXP 	TextStim: autoDraw = None
+96.8027 	EXP 	TextStim: autoDraw = None
+96.8027 	EXP 	TextStim: autoDraw = None
+97.7704 	EXP 	New trial (rep=0, index=19): {u'TrialImages': u'Evil.jpg', u'CorrAns': u'l'}
+97.8035 	EXP 	TextStim: autoDraw = None
+97.8035 	EXP 	TextStim: autoDraw = None
+97.8035 	EXP 	TextStim: autoDraw = None
+97.8035 	EXP 	Set text_14 text=A = 
+White or 
+Positive
+97.8035 	EXP 	Set text_15 text=L = 
+Black or 
+Negative
+97.8035 	EXP 	Set image_2 image=stimuli\Evil.jpg
+97.8035 	EXP 	TextStim: autoDraw = None
+97.8035 	EXP 	TextStim: autoDraw = None
+97.8035 	EXP 	ImageStim: autoDraw = None
+98.5043 	DATA 	Keypress: l
+98.5372 	EXP 	TextStim: autoDraw = None
+98.5372 	EXP 	TextStim: autoDraw = None
+98.5372 	EXP 	ImageStim: autoDraw = None
+98.5372 	EXP 	Set text_33 text=
+98.5372 	EXP 	Set text_34 text=A = 
+White or 
+Positive
+98.5372 	EXP 	Set text_35 text=L = 
+Black or 
+Negative
+98.5372 	EXP 	TextStim: autoDraw = None
+98.5372 	EXP 	TextStim: autoDraw = None
+98.5372 	EXP 	TextStim: autoDraw = None
+99.5056 	EXP 	New trial (rep=1, index=0): None
+99.5385 	EXP 	TextStim: autoDraw = None
+99.5385 	EXP 	TextStim: autoDraw = None
+99.5385 	EXP 	TextStim: autoDraw = None
+99.5385 	EXP 	Set text_7 text=A = 
+Black
+99.5385 	EXP 	Set text_8 text=L = 
+White
+99.5385 	EXP 	TextStim: autoDraw = None
+99.5385 	EXP 	TextStim: autoDraw = None
+99.5385 	EXP 	TextStim: autoDraw = None
+101.9732 	DATA 	Keypress: space
+101.9778 	EXP 	Imported incong_train.xlsx as conditions, 10 conditions, 2 params
+101.9782 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+101.9789 	EXP 	New trial (rep=0, index=0): {u'TrialImages': u'white_2.jpg', u'CorrAns': u'l'}
+102.0063 	EXP 	TextStim: autoDraw = None
+102.0063 	EXP 	TextStim: autoDraw = None
+102.0063 	EXP 	TextStim: autoDraw = None
+102.0063 	EXP 	Set text_9 text=A = 
+Black
+102.0063 	EXP 	Set text_10 text=L = 
+White
+102.0063 	EXP 	Set image image=stimuli\white_2.jpg
+102.0063 	EXP 	TextStim: autoDraw = None
+102.0063 	EXP 	TextStim: autoDraw = None
+102.0063 	EXP 	ImageStim: autoDraw = None
+102.7903 	DATA 	Keypress: l
+102.8086 	EXP 	TextStim: autoDraw = None
+102.8086 	EXP 	TextStim: autoDraw = None
+102.8086 	EXP 	ImageStim: autoDraw = None
+102.8086 	EXP 	Set text_28 text=
+102.8086 	EXP 	Set text_31 text=A = 
+Black
+102.8086 	EXP 	Set text_32 text=L = 
+White
+102.8086 	EXP 	TextStim: autoDraw = None
+102.8086 	EXP 	TextStim: autoDraw = None
+102.8086 	EXP 	TextStim: autoDraw = None
+103.7917 	EXP 	New trial (rep=0, index=1): {u'TrialImages': u'white_1.jpg', u'CorrAns': u'l'}
+103.8244 	EXP 	TextStim: autoDraw = None
+103.8244 	EXP 	TextStim: autoDraw = None
+103.8244 	EXP 	TextStim: autoDraw = None
+103.8244 	EXP 	Set text_9 text=A = 
+Black
+103.8244 	EXP 	Set text_10 text=L = 
+White
+103.8244 	EXP 	Set image image=stimuli\white_1.jpg
+103.8244 	EXP 	TextStim: autoDraw = None
+103.8244 	EXP 	TextStim: autoDraw = None
+103.8244 	EXP 	ImageStim: autoDraw = None
+104.3415 	DATA 	Keypress: l
+104.3748 	EXP 	TextStim: autoDraw = None
+104.3748 	EXP 	TextStim: autoDraw = None
+104.3748 	EXP 	ImageStim: autoDraw = None
+104.3748 	EXP 	Set text_28 text=
+104.3748 	EXP 	Set text_31 text=A = 
+Black
+104.3748 	EXP 	Set text_32 text=L = 
+White
+104.3748 	EXP 	TextStim: autoDraw = None
+104.3748 	EXP 	TextStim: autoDraw = None
+104.3748 	EXP 	TextStim: autoDraw = None
+105.3426 	EXP 	New trial (rep=0, index=2): {u'TrialImages': u'white_4.jpg', u'CorrAns': u'l'}
+105.3755 	EXP 	TextStim: autoDraw = None
+105.3755 	EXP 	TextStim: autoDraw = None
+105.3755 	EXP 	TextStim: autoDraw = None
+105.3755 	EXP 	Set text_9 text=A = 
+Black
+105.3755 	EXP 	Set text_10 text=L = 
+White
+105.3755 	EXP 	Set image image=stimuli\white_4.jpg
+105.3755 	EXP 	TextStim: autoDraw = None
+105.3755 	EXP 	TextStim: autoDraw = None
+105.3755 	EXP 	ImageStim: autoDraw = None
+105.8760 	DATA 	Keypress: l
+105.9093 	EXP 	TextStim: autoDraw = None
+105.9093 	EXP 	TextStim: autoDraw = None
+105.9093 	EXP 	ImageStim: autoDraw = None
+105.9093 	EXP 	Set text_28 text=
+105.9093 	EXP 	Set text_31 text=A = 
+Black
+105.9093 	EXP 	Set text_32 text=L = 
+White
+105.9093 	EXP 	TextStim: autoDraw = None
+105.9093 	EXP 	TextStim: autoDraw = None
+105.9093 	EXP 	TextStim: autoDraw = None
+106.8768 	EXP 	New trial (rep=0, index=3): {u'TrialImages': u'white_3.jpg', u'CorrAns': u'l'}
+106.8954 	EXP 	TextStim: autoDraw = None
+106.8954 	EXP 	TextStim: autoDraw = None
+106.8954 	EXP 	TextStim: autoDraw = None
+106.8954 	EXP 	Set text_9 text=A = 
+Black
+106.8954 	EXP 	Set text_10 text=L = 
+White
+106.8954 	EXP 	Set image image=stimuli\white_3.jpg
+106.8954 	EXP 	TextStim: autoDraw = None
+106.8954 	EXP 	TextStim: autoDraw = None
+106.8954 	EXP 	ImageStim: autoDraw = None
+107.2771 	DATA 	Keypress: l
+107.3103 	EXP 	TextStim: autoDraw = None
+107.3103 	EXP 	TextStim: autoDraw = None
+107.3103 	EXP 	ImageStim: autoDraw = None
+107.3103 	EXP 	Set text_28 text=
+107.3103 	EXP 	Set text_31 text=A = 
+Black
+107.3103 	EXP 	Set text_32 text=L = 
+White
+107.3103 	EXP 	TextStim: autoDraw = None
+107.3103 	EXP 	TextStim: autoDraw = None
+107.3103 	EXP 	TextStim: autoDraw = None
+108.2781 	EXP 	New trial (rep=0, index=4): {u'TrialImages': u'black_5.jpg', u'CorrAns': u'a'}
+108.3110 	EXP 	TextStim: autoDraw = None
+108.3110 	EXP 	TextStim: autoDraw = None
+108.3110 	EXP 	TextStim: autoDraw = None
+108.3110 	EXP 	Set text_9 text=A = 
+Black
+108.3110 	EXP 	Set text_10 text=L = 
+White
+108.3110 	EXP 	Set image image=stimuli\black_5.jpg
+108.3110 	EXP 	TextStim: autoDraw = None
+108.3110 	EXP 	TextStim: autoDraw = None
+108.3110 	EXP 	ImageStim: autoDraw = None
+108.8949 	DATA 	Keypress: a
+108.9281 	EXP 	TextStim: autoDraw = None
+108.9281 	EXP 	TextStim: autoDraw = None
+108.9281 	EXP 	ImageStim: autoDraw = None
+108.9281 	EXP 	Set text_28 text=
+108.9281 	EXP 	Set text_31 text=A = 
+Black
+108.9281 	EXP 	Set text_32 text=L = 
+White
+108.9281 	EXP 	TextStim: autoDraw = None
+108.9281 	EXP 	TextStim: autoDraw = None
+108.9281 	EXP 	TextStim: autoDraw = None
+109.8958 	EXP 	New trial (rep=0, index=5): {u'TrialImages': u'black_4.jpg', u'CorrAns': u'a'}
+109.9288 	EXP 	TextStim: autoDraw = None
+109.9288 	EXP 	TextStim: autoDraw = None
+109.9288 	EXP 	TextStim: autoDraw = None
+109.9288 	EXP 	Set text_9 text=A = 
+Black
+109.9288 	EXP 	Set text_10 text=L = 
+White
+109.9288 	EXP 	Set image image=stimuli\black_4.jpg
+109.9288 	EXP 	TextStim: autoDraw = None
+109.9288 	EXP 	TextStim: autoDraw = None
+109.9288 	EXP 	ImageStim: autoDraw = None
+110.5795 	DATA 	Keypress: a
+110.6126 	EXP 	TextStim: autoDraw = None
+110.6126 	EXP 	TextStim: autoDraw = None
+110.6126 	EXP 	ImageStim: autoDraw = None
+110.6126 	EXP 	Set text_28 text=
+110.6126 	EXP 	Set text_31 text=A = 
+Black
+110.6126 	EXP 	Set text_32 text=L = 
+White
+110.6126 	EXP 	TextStim: autoDraw = None
+110.6126 	EXP 	TextStim: autoDraw = None
+110.6126 	EXP 	TextStim: autoDraw = None
+111.5806 	EXP 	New trial (rep=0, index=6): {u'TrialImages': u'black_3.jpg', u'CorrAns': u'a'}
+111.6134 	EXP 	TextStim: autoDraw = None
+111.6134 	EXP 	TextStim: autoDraw = None
+111.6134 	EXP 	TextStim: autoDraw = None
+111.6134 	EXP 	Set text_9 text=A = 
+Black
+111.6134 	EXP 	Set text_10 text=L = 
+White
+111.6134 	EXP 	Set image image=stimuli\black_3.jpg
+111.6134 	EXP 	TextStim: autoDraw = None
+111.6134 	EXP 	TextStim: autoDraw = None
+111.6134 	EXP 	ImageStim: autoDraw = None
+112.1472 	DATA 	Keypress: a
+112.1803 	EXP 	TextStim: autoDraw = None
+112.1803 	EXP 	TextStim: autoDraw = None
+112.1803 	EXP 	ImageStim: autoDraw = None
+112.1803 	EXP 	Set text_28 text=
+112.1803 	EXP 	Set text_31 text=A = 
+Black
+112.1803 	EXP 	Set text_32 text=L = 
+White
+112.1803 	EXP 	TextStim: autoDraw = None
+112.1803 	EXP 	TextStim: autoDraw = None
+112.1803 	EXP 	TextStim: autoDraw = None
+113.1481 	EXP 	New trial (rep=0, index=7): {u'TrialImages': u'black_2.jpg', u'CorrAns': u'a'}
+113.1810 	EXP 	TextStim: autoDraw = None
+113.1810 	EXP 	TextStim: autoDraw = None
+113.1810 	EXP 	TextStim: autoDraw = None
+113.1810 	EXP 	Set text_9 text=A = 
+Black
+113.1810 	EXP 	Set text_10 text=L = 
+White
+113.1810 	EXP 	Set image image=stimuli\black_2.jpg
+113.1810 	EXP 	TextStim: autoDraw = None
+113.1810 	EXP 	TextStim: autoDraw = None
+113.1810 	EXP 	ImageStim: autoDraw = None
+113.9484 	DATA 	Keypress: a
+113.9983 	EXP 	TextStim: autoDraw = None
+113.9983 	EXP 	TextStim: autoDraw = None
+113.9983 	EXP 	ImageStim: autoDraw = None
+113.9983 	EXP 	Set text_28 text=
+113.9983 	EXP 	Set text_31 text=A = 
+Black
+113.9983 	EXP 	Set text_32 text=L = 
+White
+113.9983 	EXP 	TextStim: autoDraw = None
+113.9983 	EXP 	TextStim: autoDraw = None
+113.9983 	EXP 	TextStim: autoDraw = None
+114.9495 	EXP 	New trial (rep=0, index=8): {u'TrialImages': u'black_1.jpg', u'CorrAns': u'a'}
+114.9823 	EXP 	TextStim: autoDraw = None
+114.9823 	EXP 	TextStim: autoDraw = None
+114.9823 	EXP 	TextStim: autoDraw = None
+114.9823 	EXP 	Set text_9 text=A = 
+Black
+114.9823 	EXP 	Set text_10 text=L = 
+White
+114.9823 	EXP 	Set image image=stimuli\black_1.jpg
+114.9823 	EXP 	TextStim: autoDraw = None
+114.9823 	EXP 	TextStim: autoDraw = None
+114.9823 	EXP 	ImageStim: autoDraw = None
+115.4996 	DATA 	Keypress: a
+115.5326 	EXP 	TextStim: autoDraw = None
+115.5326 	EXP 	TextStim: autoDraw = None
+115.5326 	EXP 	ImageStim: autoDraw = None
+115.5326 	EXP 	Set text_28 text=
+115.5326 	EXP 	Set text_31 text=A = 
+Black
+115.5326 	EXP 	Set text_32 text=L = 
+White
+115.5326 	EXP 	TextStim: autoDraw = None
+115.5326 	EXP 	TextStim: autoDraw = None
+115.5326 	EXP 	TextStim: autoDraw = None
+116.5007 	EXP 	New trial (rep=0, index=9): {u'TrialImages': u'white_5.jpg', u'CorrAns': u'l'}
+116.5335 	EXP 	TextStim: autoDraw = None
+116.5335 	EXP 	TextStim: autoDraw = None
+116.5335 	EXP 	TextStim: autoDraw = None
+116.5335 	EXP 	Set text_9 text=A = 
+Black
+116.5335 	EXP 	Set text_10 text=L = 
+White
+116.5335 	EXP 	Set image image=stimuli\white_5.jpg
+116.5335 	EXP 	TextStim: autoDraw = None
+116.5335 	EXP 	TextStim: autoDraw = None
+116.5335 	EXP 	ImageStim: autoDraw = None
+117.4010 	DATA 	Keypress: l
+117.4342 	EXP 	TextStim: autoDraw = None
+117.4342 	EXP 	TextStim: autoDraw = None
+117.4342 	EXP 	ImageStim: autoDraw = None
+117.4342 	EXP 	Set text_28 text=
+117.4342 	EXP 	Set text_31 text=A = 
+Black
+117.4342 	EXP 	Set text_32 text=L = 
+White
+117.4342 	EXP 	TextStim: autoDraw = None
+117.4342 	EXP 	TextStim: autoDraw = None
+117.4342 	EXP 	TextStim: autoDraw = None
+118.4348 	EXP 	TextStim: autoDraw = None
+118.4348 	EXP 	TextStim: autoDraw = None
+118.4348 	EXP 	TextStim: autoDraw = None
+118.4348 	EXP 	Set text_12 text=A = 
+Black or 
+Positive
+118.4348 	EXP 	Set text_13 text=L = 
+White or 
+Negative
+118.4348 	EXP 	TextStim: autoDraw = None
+118.4348 	EXP 	TextStim: autoDraw = None
+118.4348 	EXP 	TextStim: autoDraw = None
+122.4045 	DATA 	Keypress: space
+122.4126 	EXP 	Imported incong_test.xlsx as conditions, 20 conditions, 2 params
+122.4134 	EXP 	Created sequence: random, trialTypes=20, nReps=1, seed=None
+122.4143 	EXP 	New trial (rep=0, index=0): {u'TrialImages': u'black_2.jpg', u'CorrAns': u'a'}
+122.4403 	EXP 	TextStim: autoDraw = None
+122.4403 	EXP 	TextStim: autoDraw = None
+122.4403 	EXP 	TextStim: autoDraw = None
+122.4403 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+122.4403 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+122.4403 	EXP 	Set image_2 image=stimuli\black_2.jpg
+122.4403 	EXP 	TextStim: autoDraw = None
+122.4403 	EXP 	TextStim: autoDraw = None
+122.4403 	EXP 	ImageStim: autoDraw = None
+123.6894 	DATA 	Keypress: a
+123.7386 	EXP 	TextStim: autoDraw = None
+123.7386 	EXP 	TextStim: autoDraw = None
+123.7386 	EXP 	ImageStim: autoDraw = None
+123.7386 	EXP 	Set text_33 text=
+123.7386 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+123.7386 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+123.7386 	EXP 	TextStim: autoDraw = None
+123.7386 	EXP 	TextStim: autoDraw = None
+123.7386 	EXP 	TextStim: autoDraw = None
+124.7063 	EXP 	New trial (rep=0, index=1): {u'TrialImages': u'white_2.jpg', u'CorrAns': u'l'}
+124.7392 	EXP 	TextStim: autoDraw = None
+124.7392 	EXP 	TextStim: autoDraw = None
+124.7392 	EXP 	TextStim: autoDraw = None
+124.7392 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+124.7392 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+124.7392 	EXP 	Set image_2 image=stimuli\white_2.jpg
+124.7392 	EXP 	TextStim: autoDraw = None
+124.7392 	EXP 	TextStim: autoDraw = None
+124.7392 	EXP 	ImageStim: autoDraw = None
+125.4577 	DATA 	Keypress: l
+125.5065 	EXP 	TextStim: autoDraw = None
+125.5065 	EXP 	TextStim: autoDraw = None
+125.5065 	EXP 	ImageStim: autoDraw = None
+125.5065 	EXP 	Set text_33 text=
+125.5065 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+125.5065 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+125.5065 	EXP 	TextStim: autoDraw = None
+125.5065 	EXP 	TextStim: autoDraw = None
+125.5065 	EXP 	TextStim: autoDraw = None
+126.4744 	EXP 	New trial (rep=0, index=2): {u'TrialImages': u'white_5.jpg', u'CorrAns': u'l'}
+126.5072 	EXP 	TextStim: autoDraw = None
+126.5072 	EXP 	TextStim: autoDraw = None
+126.5072 	EXP 	TextStim: autoDraw = None
+126.5072 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+126.5072 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+126.5072 	EXP 	Set image_2 image=stimuli\white_5.jpg
+126.5072 	EXP 	TextStim: autoDraw = None
+126.5072 	EXP 	TextStim: autoDraw = None
+126.5072 	EXP 	ImageStim: autoDraw = None
+127.6580 	DATA 	Keypress: l
+127.6914 	EXP 	TextStim: autoDraw = None
+127.6914 	EXP 	TextStim: autoDraw = None
+127.6914 	EXP 	ImageStim: autoDraw = None
+127.6914 	EXP 	Set text_33 text=
+127.6914 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+127.6914 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+127.6914 	EXP 	TextStim: autoDraw = None
+127.6914 	EXP 	TextStim: autoDraw = None
+127.6914 	EXP 	TextStim: autoDraw = None
+128.6594 	EXP 	New trial (rep=0, index=3): {u'TrialImages': u'Agony.jpg', u'CorrAns': u'l'}
+128.6953 	EXP 	TextStim: autoDraw = None
+128.6953 	EXP 	TextStim: autoDraw = None
+128.6953 	EXP 	TextStim: autoDraw = None
+128.6953 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+128.6953 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+128.6953 	EXP 	Set image_2 image=stimuli\Agony.jpg
+128.6953 	EXP 	TextStim: autoDraw = None
+128.6953 	EXP 	TextStim: autoDraw = None
+128.6953 	EXP 	ImageStim: autoDraw = None
+129.2591 	DATA 	Keypress: l
+129.2924 	EXP 	TextStim: autoDraw = None
+129.2924 	EXP 	TextStim: autoDraw = None
+129.2924 	EXP 	ImageStim: autoDraw = None
+129.2924 	EXP 	Set text_33 text=
+129.2924 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+129.2924 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+129.2924 	EXP 	TextStim: autoDraw = None
+129.2924 	EXP 	TextStim: autoDraw = None
+129.2924 	EXP 	TextStim: autoDraw = None
+130.2605 	EXP 	New trial (rep=0, index=4): {u'TrialImages': u'black_4.jpg', u'CorrAns': u'a'}
+130.2932 	EXP 	TextStim: autoDraw = None
+130.2932 	EXP 	TextStim: autoDraw = None
+130.2932 	EXP 	TextStim: autoDraw = None
+130.2932 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+130.2932 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+130.2932 	EXP 	Set image_2 image=stimuli\black_4.jpg
+130.2932 	EXP 	TextStim: autoDraw = None
+130.2932 	EXP 	TextStim: autoDraw = None
+130.2932 	EXP 	ImageStim: autoDraw = None
+130.8940 	DATA 	Keypress: a
+130.9437 	EXP 	TextStim: autoDraw = None
+130.9437 	EXP 	TextStim: autoDraw = None
+130.9437 	EXP 	ImageStim: autoDraw = None
+130.9437 	EXP 	Set text_33 text=
+130.9437 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+130.9437 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+130.9437 	EXP 	TextStim: autoDraw = None
+130.9437 	EXP 	TextStim: autoDraw = None
+130.9437 	EXP 	TextStim: autoDraw = None
+131.8948 	EXP 	New trial (rep=0, index=5): {u'TrialImages': u'white_4.jpg', u'CorrAns': u'l'}
+131.9278 	EXP 	TextStim: autoDraw = None
+131.9278 	EXP 	TextStim: autoDraw = None
+131.9278 	EXP 	TextStim: autoDraw = None
+131.9278 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+131.9278 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+131.9278 	EXP 	Set image_2 image=stimuli\white_4.jpg
+131.9278 	EXP 	TextStim: autoDraw = None
+131.9278 	EXP 	TextStim: autoDraw = None
+131.9278 	EXP 	ImageStim: autoDraw = None
+132.4782 	DATA 	Keypress: l
+132.5115 	EXP 	TextStim: autoDraw = None
+132.5115 	EXP 	TextStim: autoDraw = None
+132.5115 	EXP 	ImageStim: autoDraw = None
+132.5115 	EXP 	Set text_33 text=
+132.5115 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+132.5115 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+132.5115 	EXP 	TextStim: autoDraw = None
+132.5115 	EXP 	TextStim: autoDraw = None
+132.5115 	EXP 	TextStim: autoDraw = None
+133.4792 	EXP 	New trial (rep=0, index=6): {u'TrialImages': u'black_1.jpg', u'CorrAns': u'a'}
+133.5122 	EXP 	TextStim: autoDraw = None
+133.5122 	EXP 	TextStim: autoDraw = None
+133.5122 	EXP 	TextStim: autoDraw = None
+133.5122 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+133.5122 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+133.5122 	EXP 	Set image_2 image=stimuli\black_1.jpg
+133.5122 	EXP 	TextStim: autoDraw = None
+133.5122 	EXP 	TextStim: autoDraw = None
+133.5122 	EXP 	ImageStim: autoDraw = None
+134.0125 	DATA 	Keypress: a
+134.0459 	EXP 	TextStim: autoDraw = None
+134.0459 	EXP 	TextStim: autoDraw = None
+134.0459 	EXP 	ImageStim: autoDraw = None
+134.0459 	EXP 	Set text_33 text=
+134.0459 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+134.0459 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+134.0459 	EXP 	TextStim: autoDraw = None
+134.0459 	EXP 	TextStim: autoDraw = None
+134.0459 	EXP 	TextStim: autoDraw = None
+135.0135 	EXP 	New trial (rep=0, index=7): {u'TrialImages': u'Happy.jpg', u'CorrAns': u'a'}
+135.0465 	EXP 	TextStim: autoDraw = None
+135.0465 	EXP 	TextStim: autoDraw = None
+135.0465 	EXP 	TextStim: autoDraw = None
+135.0465 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+135.0465 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+135.0465 	EXP 	Set image_2 image=stimuli\Happy.jpg
+135.0465 	EXP 	TextStim: autoDraw = None
+135.0465 	EXP 	TextStim: autoDraw = None
+135.0465 	EXP 	ImageStim: autoDraw = None
+135.7308 	DATA 	Keypress: l
+135.7637 	EXP 	TextStim: autoDraw = None
+135.7637 	EXP 	TextStim: autoDraw = None
+135.7637 	EXP 	ImageStim: autoDraw = None
+135.7637 	EXP 	Set text_33 text=oops
+135.7637 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+135.7637 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+135.7637 	EXP 	TextStim: autoDraw = None
+135.7637 	EXP 	TextStim: autoDraw = None
+135.7637 	EXP 	TextStim: autoDraw = None
+136.7316 	EXP 	New trial (rep=0, index=8): {u'TrialImages': u'Bad.jpg', u'CorrAns': u'l'}
+136.7645 	EXP 	TextStim: autoDraw = None
+136.7645 	EXP 	TextStim: autoDraw = None
+136.7645 	EXP 	TextStim: autoDraw = None
+136.7645 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+136.7645 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+136.7645 	EXP 	Set image_2 image=stimuli\Bad.jpg
+136.7645 	EXP 	TextStim: autoDraw = None
+136.7645 	EXP 	TextStim: autoDraw = None
+136.7645 	EXP 	ImageStim: autoDraw = None
+137.9655 	DATA 	Keypress: a
+137.9987 	EXP 	TextStim: autoDraw = None
+137.9987 	EXP 	TextStim: autoDraw = None
+137.9987 	EXP 	ImageStim: autoDraw = None
+137.9987 	EXP 	Set text_33 text=oops
+137.9987 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+137.9987 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+137.9987 	EXP 	TextStim: autoDraw = None
+137.9987 	EXP 	TextStim: autoDraw = None
+137.9987 	EXP 	TextStim: autoDraw = None
+138.9666 	EXP 	New trial (rep=0, index=9): {u'TrialImages': u'black_3.jpg', u'CorrAns': u'a'}
+138.9994 	EXP 	TextStim: autoDraw = None
+138.9994 	EXP 	TextStim: autoDraw = None
+138.9994 	EXP 	TextStim: autoDraw = None
+138.9994 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+138.9994 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+138.9994 	EXP 	Set image_2 image=stimuli\black_3.jpg
+138.9994 	EXP 	TextStim: autoDraw = None
+138.9994 	EXP 	TextStim: autoDraw = None
+138.9994 	EXP 	ImageStim: autoDraw = None
+140.3174 	DATA 	Keypress: a
+140.3504 	EXP 	TextStim: autoDraw = None
+140.3504 	EXP 	TextStim: autoDraw = None
+140.3504 	EXP 	ImageStim: autoDraw = None
+140.3504 	EXP 	Set text_33 text=
+140.3504 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+140.3504 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+140.3504 	EXP 	TextStim: autoDraw = None
+140.3504 	EXP 	TextStim: autoDraw = None
+140.3504 	EXP 	TextStim: autoDraw = None
+141.3179 	EXP 	New trial (rep=0, index=10): {u'TrialImages': u'Good.jpg', u'CorrAns': u'a'}
+141.3510 	EXP 	TextStim: autoDraw = None
+141.3510 	EXP 	TextStim: autoDraw = None
+141.3510 	EXP 	TextStim: autoDraw = None
+141.3510 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+141.3510 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+141.3510 	EXP 	Set image_2 image=stimuli\Good.jpg
+141.3510 	EXP 	TextStim: autoDraw = None
+141.3510 	EXP 	TextStim: autoDraw = None
+141.3510 	EXP 	ImageStim: autoDraw = None
+141.8683 	DATA 	Keypress: l
+141.9015 	EXP 	TextStim: autoDraw = None
+141.9015 	EXP 	TextStim: autoDraw = None
+141.9015 	EXP 	ImageStim: autoDraw = None
+141.9015 	EXP 	Set text_33 text=oops
+141.9015 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+141.9015 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+141.9015 	EXP 	TextStim: autoDraw = None
+141.9015 	EXP 	TextStim: autoDraw = None
+141.9015 	EXP 	TextStim: autoDraw = None
+142.8693 	EXP 	New trial (rep=0, index=11): {u'TrialImages': u'Hurt.jpg', u'CorrAns': u'l'}
+142.9022 	EXP 	TextStim: autoDraw = None
+142.9022 	EXP 	TextStim: autoDraw = None
+142.9022 	EXP 	TextStim: autoDraw = None
+142.9022 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+142.9022 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+142.9022 	EXP 	Set image_2 image=stimuli\Hurt.jpg
+142.9022 	EXP 	TextStim: autoDraw = None
+142.9022 	EXP 	TextStim: autoDraw = None
+142.9022 	EXP 	ImageStim: autoDraw = None
+143.8029 	DATA 	Keypress: l
+143.8362 	EXP 	TextStim: autoDraw = None
+143.8362 	EXP 	TextStim: autoDraw = None
+143.8362 	EXP 	ImageStim: autoDraw = None
+143.8362 	EXP 	Set text_33 text=
+143.8362 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+143.8362 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+143.8362 	EXP 	TextStim: autoDraw = None
+143.8362 	EXP 	TextStim: autoDraw = None
+143.8362 	EXP 	TextStim: autoDraw = None
+144.8044 	EXP 	New trial (rep=0, index=12): {u'TrialImages': u'Nasty.jpg', u'CorrAns': u'l'}
+144.8537 	EXP 	TextStim: autoDraw = None
+144.8537 	EXP 	TextStim: autoDraw = None
+144.8537 	EXP 	TextStim: autoDraw = None
+144.8537 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+144.8537 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+144.8537 	EXP 	Set image_2 image=stimuli\Nasty.jpg
+144.8537 	EXP 	TextStim: autoDraw = None
+144.8537 	EXP 	TextStim: autoDraw = None
+144.8537 	EXP 	ImageStim: autoDraw = None
+145.6543 	DATA 	Keypress: l
+145.6874 	EXP 	TextStim: autoDraw = None
+145.6874 	EXP 	TextStim: autoDraw = None
+145.6874 	EXP 	ImageStim: autoDraw = None
+145.6874 	EXP 	Set text_33 text=
+145.6874 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+145.6874 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+145.6874 	EXP 	TextStim: autoDraw = None
+145.6874 	EXP 	TextStim: autoDraw = None
+145.6874 	EXP 	TextStim: autoDraw = None
+146.6555 	EXP 	New trial (rep=0, index=13): {u'TrialImages': u'Joy.jpg', u'CorrAns': u'a'}
+146.7049 	EXP 	TextStim: autoDraw = None
+146.7049 	EXP 	TextStim: autoDraw = None
+146.7049 	EXP 	TextStim: autoDraw = None
+146.7049 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+146.7049 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+146.7049 	EXP 	Set image_2 image=stimuli\Joy.jpg
+146.7049 	EXP 	TextStim: autoDraw = None
+146.7049 	EXP 	TextStim: autoDraw = None
+146.7049 	EXP 	ImageStim: autoDraw = None
+147.3225 	DATA 	Keypress: a
+147.3554 	EXP 	TextStim: autoDraw = None
+147.3554 	EXP 	TextStim: autoDraw = None
+147.3554 	EXP 	ImageStim: autoDraw = None
+147.3554 	EXP 	Set text_33 text=
+147.3554 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+147.3554 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+147.3554 	EXP 	TextStim: autoDraw = None
+147.3554 	EXP 	TextStim: autoDraw = None
+147.3554 	EXP 	TextStim: autoDraw = None
+148.3232 	EXP 	New trial (rep=0, index=14): {u'TrialImages': u'white_3.jpg', u'CorrAns': u'l'}
+148.3561 	EXP 	TextStim: autoDraw = None
+148.3561 	EXP 	TextStim: autoDraw = None
+148.3561 	EXP 	TextStim: autoDraw = None
+148.3561 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+148.3561 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+148.3561 	EXP 	Set image_2 image=stimuli\white_3.jpg
+148.3561 	EXP 	TextStim: autoDraw = None
+148.3561 	EXP 	TextStim: autoDraw = None
+148.3561 	EXP 	ImageStim: autoDraw = None
+148.9568 	DATA 	Keypress: l
+148.9899 	EXP 	TextStim: autoDraw = None
+148.9899 	EXP 	TextStim: autoDraw = None
+148.9899 	EXP 	ImageStim: autoDraw = None
+148.9899 	EXP 	Set text_33 text=
+148.9899 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+148.9899 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+148.9899 	EXP 	TextStim: autoDraw = None
+148.9899 	EXP 	TextStim: autoDraw = None
+148.9899 	EXP 	TextStim: autoDraw = None
+149.9578 	EXP 	New trial (rep=0, index=15): {u'TrialImages': u'white_1.jpg', u'CorrAns': u'l'}
+149.9928 	EXP 	TextStim: autoDraw = None
+149.9928 	EXP 	TextStim: autoDraw = None
+149.9928 	EXP 	TextStim: autoDraw = None
+149.9928 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+149.9928 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+149.9928 	EXP 	Set image_2 image=stimuli\white_1.jpg
+149.9928 	EXP 	TextStim: autoDraw = None
+149.9928 	EXP 	TextStim: autoDraw = None
+149.9928 	EXP 	ImageStim: autoDraw = None
+150.7415 	DATA 	Keypress: l
+150.7912 	EXP 	TextStim: autoDraw = None
+150.7912 	EXP 	TextStim: autoDraw = None
+150.7912 	EXP 	ImageStim: autoDraw = None
+150.7912 	EXP 	Set text_33 text=
+150.7912 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+150.7912 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+150.7912 	EXP 	TextStim: autoDraw = None
+150.7912 	EXP 	TextStim: autoDraw = None
+150.7912 	EXP 	TextStim: autoDraw = None
+151.7423 	EXP 	New trial (rep=0, index=16): {u'TrialImages': u'Love.jpg', u'CorrAns': u'a'}
+151.7753 	EXP 	TextStim: autoDraw = None
+151.7753 	EXP 	TextStim: autoDraw = None
+151.7753 	EXP 	TextStim: autoDraw = None
+151.7753 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+151.7753 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+151.7753 	EXP 	Set image_2 image=stimuli\Love.jpg
+151.7753 	EXP 	TextStim: autoDraw = None
+151.7753 	EXP 	TextStim: autoDraw = None
+151.7753 	EXP 	ImageStim: autoDraw = None
+152.6760 	DATA 	Keypress: a
+152.7092 	EXP 	TextStim: autoDraw = None
+152.7092 	EXP 	TextStim: autoDraw = None
+152.7092 	EXP 	ImageStim: autoDraw = None
+152.7092 	EXP 	Set text_33 text=
+152.7092 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+152.7092 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+152.7092 	EXP 	TextStim: autoDraw = None
+152.7092 	EXP 	TextStim: autoDraw = None
+152.7092 	EXP 	TextStim: autoDraw = None
+153.6769 	EXP 	New trial (rep=0, index=17): {u'TrialImages': u'Pleasure.jpg', u'CorrAns': u'a'}
+153.7099 	EXP 	TextStim: autoDraw = None
+153.7099 	EXP 	TextStim: autoDraw = None
+153.7099 	EXP 	TextStim: autoDraw = None
+153.7099 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+153.7099 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+153.7099 	EXP 	Set image_2 image=stimuli\Pleasure.jpg
+153.7099 	EXP 	TextStim: autoDraw = None
+153.7099 	EXP 	TextStim: autoDraw = None
+153.7099 	EXP 	ImageStim: autoDraw = None
+154.2105 	DATA 	Keypress: a
+154.2436 	EXP 	TextStim: autoDraw = None
+154.2436 	EXP 	TextStim: autoDraw = None
+154.2436 	EXP 	ImageStim: autoDraw = None
+154.2436 	EXP 	Set text_33 text=
+154.2436 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+154.2436 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+154.2436 	EXP 	TextStim: autoDraw = None
+154.2436 	EXP 	TextStim: autoDraw = None
+154.2436 	EXP 	TextStim: autoDraw = None
+155.2114 	EXP 	New trial (rep=0, index=18): {u'TrialImages': u'Evil.jpg', u'CorrAns': u'l'}
+155.2443 	EXP 	TextStim: autoDraw = None
+155.2443 	EXP 	TextStim: autoDraw = None
+155.2443 	EXP 	TextStim: autoDraw = None
+155.2443 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+155.2443 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+155.2443 	EXP 	Set image_2 image=stimuli\Evil.jpg
+155.2443 	EXP 	TextStim: autoDraw = None
+155.2443 	EXP 	TextStim: autoDraw = None
+155.2443 	EXP 	ImageStim: autoDraw = None
+155.9124 	DATA 	Keypress: l
+155.9615 	EXP 	TextStim: autoDraw = None
+155.9615 	EXP 	TextStim: autoDraw = None
+155.9615 	EXP 	ImageStim: autoDraw = None
+155.9615 	EXP 	Set text_33 text=
+155.9615 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+155.9615 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+155.9615 	EXP 	TextStim: autoDraw = None
+155.9615 	EXP 	TextStim: autoDraw = None
+155.9615 	EXP 	TextStim: autoDraw = None
+156.9293 	EXP 	New trial (rep=0, index=19): {u'TrialImages': u'black_5.jpg', u'CorrAns': u'a'}
+156.9622 	EXP 	TextStim: autoDraw = None
+156.9622 	EXP 	TextStim: autoDraw = None
+156.9622 	EXP 	TextStim: autoDraw = None
+156.9622 	EXP 	Set text_14 text=A = 
+Black or 
+Positive
+156.9622 	EXP 	Set text_15 text=L = 
+White or 
+Negative
+156.9622 	EXP 	Set image_2 image=stimuli\black_5.jpg
+156.9622 	EXP 	TextStim: autoDraw = None
+156.9622 	EXP 	TextStim: autoDraw = None
+156.9622 	EXP 	ImageStim: autoDraw = None
+157.3625 	DATA 	Keypress: a
+157.3957 	EXP 	TextStim: autoDraw = None
+157.3957 	EXP 	TextStim: autoDraw = None
+157.3957 	EXP 	ImageStim: autoDraw = None
+157.3957 	EXP 	Set text_33 text=
+157.3957 	EXP 	Set text_34 text=A = 
+Black or 
+Positive
+157.3957 	EXP 	Set text_35 text=L = 
+White or 
+Negative
+157.3957 	EXP 	TextStim: autoDraw = None
+157.3957 	EXP 	TextStim: autoDraw = None
+157.3957 	EXP 	TextStim: autoDraw = None
+158.3800 	EXP 	TextStim: autoDraw = None
+158.3800 	EXP 	TextStim: autoDraw = None
+158.3800 	EXP 	TextStim: autoDraw = None
+158.3800 	EXP 	TextStim: autoDraw = None
+165.9188 	DATA 	Keypress: escape

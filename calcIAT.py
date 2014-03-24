@@ -52,7 +52,8 @@ fastRT_limit=0.300 #threshold which defines responses which are "too fast"
 fast_prop_limit=0.1 # threshold proportion of "too fast" responses which defines exclusion of ppt
 
 #where we expect the data files to be
-search_string=os.path.join('..','IAT-1.1','data','*.csv') 
+#search_string=os.path.join('..','IAT-1.3','data','*.csv') 
+search_string=os.path.join('expt','data','*.csv') 
 #we use os.path.join because the slashes go different ways on different operating systems
 #ie path = '../IAT-1.1/data' #linux
 #   path = '..\IAT-1.1\data' #windows
@@ -74,44 +75,54 @@ for filename in files:
     #extract the stuff we're interested in (n.b i am indexing using the column names defined in the csv)
     #dropna() drops nans
     #tolist() converts from series to list
-    block3corr=df['key_resp_9.corr'].dropna().tolist()
-    block3rt=df['key_resp_9.rt'].dropna().tolist()
+    corrs=df['key_resp_9.corr'].dropna().tolist()
+    rts=df['key_resp_9.rt'].dropna().tolist()
+    block_length=int(len(corrs)/2)
+    #find order 
+    order=df['order'].tolist()[0]
+    #1 congr then incong
+    #2 incongr then congr
     
-    block5corr=df['key_resp_13.corr'].dropna().tolist()
-    block5rt=df['key_resp_13.rt'].dropna().tolist()
-    
-    #findorder TK work out how to do this, when the psychopy code is better
-    order=1
-    order=2
+    if order==1:
+        congr_corr=corrs[0:block_length]
+        congr_rts=rts[0:block_length]
+        incon_corr=corrs[block_length:]
+        incon_rts=rts[block_length:]
+    else:
+        congr_corr=corrs[block_length:]
+        congr_rts=rts[block_length:]
+        incon_corr=corrs[0:block_length]
+        incon_rts=rts[0:block_length]
+            
     
     
     ## -----------ANALYSE / CALCULATE
         
     #1 discard subject if too many fast responses
-    if sum(np.array(block5rt + block3rt)<fastRT_limit)>len(block5rt + block3rt)*fast_prop_limit:
+    if sum(np.array(congr_rts + incon_rts)<fastRT_limit)>len(congr_rts + incon_rts)*fast_prop_limit:
         print "excluding subject for " + os.path.basename(filename) + " because too many fast responses"
     else:
         #2 Eliminate scores over 10,000 ms
              
-        block3rt,block3corr=exclude_slows(block3rt,block3corr,slowRT_limit)              
-        block3rt,block3corr=exclude_slows(block3rt,block3corr,slowRT_limit)
+        congr_rts,congr_corr=exclude_slows(congr_rts,congr_corr,slowRT_limit)              
+        incon_rts,incon_corr=exclude_slows(incon_rts,incon_corr,slowRT_limit)
         
         #3 Calculate pooled std
         #pooled_std=pooled.std(0) #n-1 std sample std
         #(Use N not N-1 because this is the whole sample). 
         #numpy.std is population std
-        pooled=block5rt + block3rt #all RTs from both blocks, correct and incorrect
+        pooled=congr_rts + incon_rts #all RTs from both blocks, correct and incorrect
         pooled_std=np.std(pooled)
         
         #4 Calculated adjusted means, including the penalty
-        block3adjmean=adjustedmean(block3rt,block3corr,penalty)
-        block5adjmean=adjustedmean(block5rt,block5corr,penalty)
+        congr_adjmean=adjustedmean(congr_rts,congr_corr,penalty)
+        incon_adjmean=adjustedmean(incon_rts,incon_corr,penalty)
         
-        #5 Calculate the IAT, changing sign according to block order
-        IAT=(block3adjmean-block5adjmean)/pooled_std
+        #5 Calculate the IAT, so that pro-stereotype RTs are a -ve score
+        IAT=(congr_adjmean-incon_adjmean)/pooled_std
         
-        if order==2:
-            IAT=-IAT
-            
-        print "IAT for " + os.path.basename(filename) + " is : "+ str(IAT)
+        simpleIAT=mean(congr_rts)-mean(incon_rts)        
+        
+        print "IAT for " + os.path.basename(filename) + " is : {:+.3f}".format(IAT)
+        print "Mean difference (uncorrected) is {:+.3f}".format(simpleIAT)+" seconds"
         
